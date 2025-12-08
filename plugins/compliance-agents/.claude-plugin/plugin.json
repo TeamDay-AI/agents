@@ -1,0 +1,40 @@
+{
+  "name": "compliance-agents",
+  "displayName": "SOC 2 Compliance Agents",
+  "description": "AI agents for autonomous SOC 2 compliance, security monitoring, and audit preparation",
+  "version": "1.0.0",
+  "author": {
+    "name": "TeamDay",
+    "email": "support@teamday.ai",
+    "url": "https://teamday.ai"
+  },
+  "keywords": [
+    "compliance",
+    "soc2",
+    "security",
+    "audit",
+    "monitoring",
+    "governance"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teamday-ai/compliance-agents"
+  },
+  "capabilities": {
+    "commands": [
+      "compliance-status",
+      "run-compliance-check"
+    ],
+    "skills": [
+      "log-monitor",
+      "vulnerability-scan",
+      "access-review",
+      "dr-drill",
+      "policy-audit"
+    ],
+    "agents": [
+      "compliance-orchestrator"
+    ]
+  }
+}
