@@ -117,13 +117,13 @@ Critical Issues:
 (none)
 
 High Priority:
-- Failed login spike: 15 attempts from IP 192.168.1.100 targeting user admin@teamday.ai
+- Failed login spike: 15 attempts from IP 203.0.113.42 targeting user admin@company.com
   - Action: Created issue #131, monitoring for 24h
   - Recommendation: Consider IP block if continues
 
 Medium Priority:
 - AI API cost spike: $45 today (average: $25)
-  - Cause: User demo@example.com ran 50 agents today
+  - Cause: User demo@company.com ran 50 agents today
   - Action: Monitoring, no action needed (legitimate use)
 
 Low Priority:

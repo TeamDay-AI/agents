@@ -72,7 +72,7 @@ Execute the Policy Auditor Agent to verify compliance with security policies.
    ### Acceptable Use (AUP)
    - ✅ Content moderation exists? (Check for abuse detection)
    - ✅ Rate limits enforced? (Check rate limiting code)
-   - ✅ Abuse reporting mechanism? (Check report@teamday.ai email exists)
+   - ✅ Abuse reporting mechanism? (Check abuse/report email exists)
 
 4. **Check SOC 2 controls**:
    - Read `docs/audit/soc2-controls-matrix.md`

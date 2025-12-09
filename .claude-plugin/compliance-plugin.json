@@ -1,0 +1,36 @@
+{
+  "name": "compliance-agents",
+  "source": "./plugins/compliance-agents",
+  "description": "SOC 2 compliance automation with 5 autonomous AI agents: log monitor, vulnerability scanner, access reviewer, DR drill runner, and policy auditor. Saves $272K/year vs traditional compliance.",
+  "version": "1.0.0",
+  "author": {
+    "name": "TeamDay",
+    "url": "https://teamday.ai"
+  },
+  "homepage": "https://github.com/TeamDay-AI/agents",
+  "repository": "https://github.com/TeamDay-AI/agents",
+  "license": "MIT",
+  "keywords": [
+    "compliance",
+    "soc2",
+    "security",
+    "audit",
+    "monitoring",
+    "governance",
+    "automated-compliance"
+  ],
+  "category": "security",
+  "strict": false,
+  "commands": [
+    "./commands/compliance-status.md",
+    "./commands/run-compliance-check.md"
+  ],
+  "agents": [],
+  "skills": [
+    "./skills/log-monitor.md",
+    "./skills/vulnerability-scan.md",
+    "./skills/access-review.md",
+    "./skills/dr-drill.md",
+    "./skills/policy-audit.md"
+  ]
+}

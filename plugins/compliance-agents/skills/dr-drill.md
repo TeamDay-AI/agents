@@ -27,12 +27,12 @@ Execute the DR Drill Runner Agent to test disaster recovery procedures.
    **Scenario A: Database Restore (Q1, Q3)**
    - List available Firestore backups:
      ```bash
-     gcloud firestore backups list --project=teamday-prod
+     gcloud firestore backups list --project=[YOUR_PROD_PROJECT]
      ```
    - Select most recent backup
    - Restore to test environment (NOT production):
      ```bash
-     gcloud firestore restore --project=teamday-test --backup=BACKUP_ID
+     gcloud firestore restore --project=[YOUR_TEST_PROJECT] --backup=[BACKUP_ID]
      ```
    - Verify data integrity:
      - Check user count matches
