@@ -1,0 +1,29 @@
+{
+  "name": "blog-image-generator",
+  "source": "./plugins/blog-image-generator",
+  "description": "Generate AI images for blog posts and marketing content using FAL AI. Creates high-quality 16:9 cover images optimized for blog headers.",
+  "version": "1.0.0",
+  "author": {
+    "name": "TeamDay",
+    "url": "https://teamday.ai"
+  },
+  "homepage": "https://github.com/TeamDay-AI/agents",
+  "repository": "https://github.com/TeamDay-AI/agents",
+  "license": "MIT",
+  "keywords": [
+    "blog",
+    "images",
+    "ai-generation",
+    "marketing",
+    "content",
+    "fal-ai",
+    "flux"
+  ],
+  "category": "content",
+  "strict": false,
+  "commands": [],
+  "agents": [],
+  "skills": [
+    "./skills/blog-image-generation.md"
+  ]
+}
