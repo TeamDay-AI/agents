@@ -1,3 +1,6 @@
 [submodule "skills/anthropic"]
 	path = skills/anthropic
 	url = https://github.com/anthropics/skills.git
+[submodule "skills/huggingface"]
+	path = skills/huggingface
+	url = https://github.com/huggingface/skills.git

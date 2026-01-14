@@ -31,9 +31,27 @@ Official Anthropic skills from [anthropics/skills](https://github.com/anthropics
 
 To update: `cd skills/anthropic && git pull`
 
+### huggingface (git submodule)
+
+Official HuggingFace skills from [huggingface/skills](https://github.com/huggingface/skills):
+
+| Skill | Description |
+|-------|-------------|
+| `huggingface/hugging-face-datasets` | Create and manage HF datasets |
+| `huggingface/hugging-face-model-trainer` | Train models on HF |
+| `huggingface/hugging-face-evaluation` | Evaluate models |
+| `huggingface/hugging-face-paper-publisher` | Publish papers to HF |
+| `huggingface/hugging-face-tool-builder` | Build HF tools |
+
+To update: `cd skills/huggingface && git pull`
+
 ### teamday
 
-TeamDay custom skills (add here).
+TeamDay custom skills:
+
+| Skill | Description |
+|-------|-------------|
+| `teamday/skills-manager` | Import and maintain skills from various sources |
 
 ## Skill Naming Convention
 
