@@ -10,12 +10,23 @@ Maintain the centralized TeamDay skills library by importing skills from various
 
 ## Working Directory
 
-**Always work in:** `~/teamday-agents`
+**Work in the current repository** (TeamDay-AI/agents)
 
-This is the local clone of https://github.com/TeamDay-AI/agents
+This skill expects to be run from the root of the agents repo:
+```
+.
+├── skills/
+│   ├── anthropic/      # submodule
+│   ├── huggingface/    # submodule
+│   ├── community/      # imported skills go here
+│   └── teamday/        # our skills
+├── agents/
+└── plugins/
+```
 
+Verify you're in the right place:
 ```bash
-cd ~/teamday-agents
+git remote -v  # should show TeamDay-AI/agents
 ```
 
 ## Overview
