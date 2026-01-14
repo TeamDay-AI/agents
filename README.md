@@ -5,64 +5,95 @@ Central library for AI agents, skills, and plugins.
 ## Structure
 
 ```
-├── skills/          # Standalone skills (copy to .claude/skills/)
-├── agents/          # Standalone agents (copy to .claude/agents/)
-└── plugins/         # Claude Code plugins (commands + skills + scripts)
+├── skills/              # Skill library (by provider)
+│   ├── anthropic/       # git submodule → anthropics/skills
+│   │   └── skills/      # pdf, docx, xlsx, pptx, etc.
+│   └── teamday/         # Our own skills
+│       └── {skill}/
+├── agents/              # Standalone agents (copy to .claude/agents/)
+└── plugins/             # Claude Code plugins
 ```
 
-## Skills
+## Skills by Provider
 
-Available skills for document processing, web testing, and development:
+### anthropic (git submodule)
 
-| Skill | Description | Source |
-|-------|-------------|--------|
-| `pdf` | PDF processing - extract text, fill forms, merge/split | anthropics/skills |
-| `docx` | Word document creation and manipulation | anthropics/skills |
-| `xlsx` | Excel spreadsheet operations | anthropics/skills |
-| `pptx` | PowerPoint presentation creation | anthropics/skills |
-| `mcp-builder` | Build MCP servers for Claude | anthropics/skills |
-| `webapp-testing` | Automated web application testing | anthropics/skills |
+Official Anthropic skills from [anthropics/skills](https://github.com/anthropics/skills):
 
-## Plugins
+| Skill | Description |
+|-------|-------------|
+| `anthropic/pdf` | PDF processing, form filling, merge/split |
+| `anthropic/docx` | Word document creation |
+| `anthropic/xlsx` | Excel spreadsheet operations |
+| `anthropic/pptx` | PowerPoint presentations |
+| `anthropic/mcp-builder` | Build MCP servers |
+| `anthropic/webapp-testing` | Web automation testing |
 
-Pre-packaged functionality with commands and scripts:
+To update: `cd skills/anthropic && git pull`
 
-| Plugin | Description |
-|--------|-------------|
-| `blog-image-generator` | Generate AI images for blog posts |
-| `compliance-agents` | SOC 2 compliance automation |
+### teamday
+
+TeamDay custom skills (add here).
+
+## Skill Naming Convention
+
+Skills are referenced as `{provider}/{skill-name}`:
+- `anthropic/pdf`
+- `anthropic/docx`
+- `teamday/seo-analyst`
+
+Or with prefix for flat namespaces:
+- `anthropic-pdf`
+- `teamday-seo-analyst`
 
 ## Usage
 
 ### For TeamDay App
 
-Skills and agents are copied to spaces on-demand:
-- Skills → `.claude/skills/{skill-name}/`
-- Agents → `.claude/agents/{agent-name}.md`
+When installing a skill to a space:
+```bash
+# Copy skill directory
+cp -r skills/anthropic/skills/pdf /sandbox/{org}/{space}/.claude/skills/pdf
+```
+
+Agent references:
+```yaml
+skills: ["pdf", "docx"]  # or ["anthropic/pdf", "anthropic/docx"]
+```
 
 ### For Claude Code
 
 ```bash
-# Add as marketplace
 /plugin marketplace add TeamDay-AI/agents
-
-# Install a plugin
 /plugin install blog-image-generator@teamday-agents
 ```
 
-## Adding Skills
+## Adding New Providers
 
-1. Create folder in `skills/{skill-name}/`
-2. Add `SKILL.md` with frontmatter:
-   ```yaml
-   ---
-   name: skill-name
-   description: What this skill does and when to use it
-   ---
-   ```
-3. Add supporting files (scripts/, references/, etc.)
+```bash
+# Add as submodule
+git submodule add https://github.com/{org}/{repo}.git skills/{provider-name}
+```
 
-## License
+## Updating Skills
 
-Skills imported from anthropics/skills retain their original licenses.
-See individual `LICENSE.txt` files in each skill directory.
+```bash
+# Update all submodules
+git submodule update --remote
+
+# Update specific provider
+cd skills/anthropic && git pull origin main
+```
+
+## Cloning This Repo
+
+```bash
+# Clone with submodules
+git clone --recursive https://github.com/TeamDay-AI/agents.git
+
+# Or init submodules after clone
+git clone https://github.com/TeamDay-AI/agents.git
+cd agents
+git submodule init
+git submodule update
+```
