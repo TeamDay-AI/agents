@@ -1,0 +1,39 @@
+{
+  "name": "newsfeed-curator",
+  "displayName": "AI Newsfeed Curator",
+  "description": "Curate and manage AI newsfeeds from YouTube, blogs, and social media. Extract transcripts, identify entities, generate embeddings, and translate content.",
+  "version": "1.0.0",
+  "author": {
+    "name": "TeamDay",
+    "email": "support@teamday.ai",
+    "url": "https://teamday.ai"
+  },
+  "category": "content",
+  "keywords": [
+    "newsfeed",
+    "ai-news",
+    "youtube",
+    "content-curation",
+    "transcripts",
+    "embeddings",
+    "translations"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teamday-ai/agents"
+  },
+  "capabilities": {
+    "skills": [
+      "newsfeed-add-video",
+      "newsfeed-extract-entities",
+      "newsfeed-translate"
+    ]
+  },
+  "requires": {
+    "credentials": [
+      "YOUTUBE_API_KEY",
+      "OPENAI_API_KEY"
+    ]
+  }
+}

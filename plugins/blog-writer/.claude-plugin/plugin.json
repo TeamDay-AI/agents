@@ -1,0 +1,41 @@
+{
+  "name": "blog-writer",
+  "displayName": "Blog Writer Suite",
+  "description": "Complete blog writing toolkit with AI image generation, screenshot capture, and SEO optimization. Create engaging content in multiple styles.",
+  "version": "1.0.0",
+  "author": {
+    "name": "TeamDay",
+    "email": "support@teamday.ai",
+    "url": "https://teamday.ai"
+  },
+  "category": "content",
+  "keywords": [
+    "blog",
+    "writing",
+    "content",
+    "marketing",
+    "ai-images",
+    "screenshots",
+    "seo",
+    "storytelling"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teamday-ai/agents"
+  },
+  "capabilities": {
+    "skills": [
+      "generate-image",
+      "screenshot"
+    ],
+    "agents": [
+      "blog-writer"
+    ]
+  },
+  "requires": {
+    "credentials": [
+      "FAL_KEY"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "seo-toolkit",
+  "displayName": "SEO Toolkit",
+  "description": "Complete SEO toolkit with Search Console, Google Analytics, and Ahrefs integrations. Analyze rankings, track keywords, audit content, and monitor backlinks.",
+  "version": "1.0.0",
+  "author": {
+    "name": "TeamDay",
+    "email": "support@teamday.ai",
+    "url": "https://teamday.ai"
+  },
+  "category": "marketing",
+  "keywords": [
+    "seo",
+    "search-console",
+    "google-analytics",
+    "ahrefs",
+    "keywords",
+    "rankings",
+    "backlinks",
+    "organic-traffic"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teamday-ai/agents"
+  },
+  "capabilities": {
+    "skills": [
+      "seo-audit",
+      "keyword-research",
+      "content-optimization"
+    ],
+    "agents": [
+      "seo-specialist"
+    ]
+  },
+  "mcpServers": {
+    "search-console": {
+      "command": "node",
+      "args": ["${PLUGIN_PATH}/mcp-servers/search-console/index.js"],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "${GOOGLE_APPLICATION_CREDENTIALS}"
+      }
+    },
+    "google-analytics": {
+      "command": "pipx",
+      "args": ["run", "analytics-mcp"],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "${GOOGLE_APPLICATION_CREDENTIALS}",
+        "GOOGLE_PROJECT_ID": "${GOOGLE_PROJECT_ID}"
+      }
+    },
+    "ahrefs": {
+      "command": "npx",
+      "args": ["-y", "@anthropics/mcp-ahrefs"],
+      "env": {
+        "AHREFS_API_KEY": "${AHREFS_API_KEY}"
+      }
+    }
+  },
+  "requires": {
+    "credentials": [
+      "GOOGLE_APPLICATION_CREDENTIALS",
+      "GOOGLE_PROJECT_ID",
+      "AHREFS_API_KEY"
+    ]
+  }
+}

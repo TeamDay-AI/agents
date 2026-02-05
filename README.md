@@ -1,17 +1,107 @@
 # TeamDay Agents & Skills Library
 
-Central library for AI agents, skills, and plugins.
+Central library for AI agents, skills, and plugins. Agents can be used for:
+- **Chat**: Direct conversation with specialized AI personas
+- **Subagents**: Invoked by other agents via Task tool
+- **Squads**: Pre-composed teams for common use cases
 
 ## Structure
 
 ```
+├── agents/              # 🆕 Agent library
+│   ├── registry.json    # Searchable index for discovery
+│   ├── schema.ts        # TypeScript types
+│   ├── librarian/       # Discovery/onboarding agent
+│   ├── specialists/     # Individual expert agents
+│   └── squads/          # Pre-composed agent teams
 ├── skills/              # Skill library (by provider)
 │   ├── anthropic/       # git submodule → anthropics/skills
-│   │   └── skills/      # pdf, docx, xlsx, pptx, etc.
+│   ├── huggingface/     # git submodule → huggingface/skills
+│   ├── community/       # Community contributed
 │   └── teamday/         # Our own skills
-│       └── {skill}/
-├── agents/              # Standalone agents (copy to .claude/agents/)
 └── plugins/             # Claude Code plugins
+```
+
+## 🤖 Agents
+
+Agents are AI personas with specialized expertise. They can be used as:
+- **Chat agents** in TeamDay UI (with avatar, greeting, etc.)
+- **Subagents** invoked via the Task tool in Claude Agent SDK
+
+### Available Agents
+
+| Agent | Category | Description |
+|-------|----------|-------------|
+| 📚 [Agent Librarian](agents/librarian/agent-librarian.md) | productivity | Discovers and installs agents/squads |
+| 🔍 [SEO Specialist](agents/specialists/seo-specialist.md) | marketing | Search performance and optimization |
+| ✍️ [Content Writer](agents/specialists/content-writer.md) | marketing | Blog posts, copy, documentation |
+| 🎨 [Frontend Developer](agents/specialists/frontend-developer.md) | development | UI/UX with React, Vue, Tailwind |
+| ⚙️ [Backend Developer](agents/specialists/backend-developer.md) | development | APIs, databases, security |
+| 🚀 [DevOps Engineer](agents/specialists/devops-engineer.md) | operations | CI/CD, cloud, infrastructure |
+| 📊 [Data Analyst](agents/specialists/data-analyst.md) | data | Analytics, SQL, visualization |
+
+### Squads (Agent Teams)
+
+| Squad | Agents | Use Case |
+|-------|--------|----------|
+| 🏆 [SEO Website Squad](agents/squads/seo-website-squad.md) | SEO + Content + Frontend | Build SEO-optimized websites |
+| 🔧 [Full-Stack Squad](agents/squads/full-stack-squad.md) | Frontend + Backend + DevOps | Build complete web applications |
+
+### Agent Format
+
+Agents are defined as Markdown files with YAML frontmatter:
+
+```yaml
+---
+id: seo-specialist
+name: SEO Specialist
+description: Analyzes search performance...  # For auto-invocation
+version: 1.0.0
+avatar: "🔍"                                  # Emoji or image URL
+greeting: |                                   # First message in chat
+  Hey! I'm your SEO Specialist...
+category: marketing
+tags: [seo, analytics, keywords]
+tier: pro                                     # free | pro | enterprise
+tools: [Read, Glob, Grep, WebSearch]          # Allowed tools
+model: sonnet                                 # sonnet | opus | haiku
+requires:
+  mcps: [search-console]                      # Required MCP servers
+  credentials: [GOOGLE_ANALYTICS_CREDENTIALS] # Required secrets
+worksWellWith: [content-writer, data-analyst] # Complementary agents
+---
+
+# SEO Specialist
+
+[System prompt defining the agent's behavior...]
+```
+
+### Using Agents
+
+**In TeamDay (Chat):**
+Agents appear in the agent selector with their avatar and greeting.
+
+**As Subagent (SDK):**
+```typescript
+import { query } from '@anthropic-ai/claude-agent-sdk'
+
+for await (const msg of query({
+  prompt: "Use the seo-specialist agent to audit this site",
+  options: {
+    agents: {
+      'seo-specialist': {
+        description: 'SEO analysis and optimization',
+        prompt: '...', // Loaded from .md file
+        tools: ['Read', 'Grep', 'WebSearch']
+      }
+    }
+  }
+})) { ... }
+```
+
+**Install to Space:**
+```bash
+cp agents/specialists/seo-specialist.md {space}/.claude/agents/
 ```
 
 ## Skills by Provider

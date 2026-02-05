@@ -1,0 +1,124 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-02-05",
+  "agents": {
+    "seo-specialist": {
+      "id": "seo-specialist",
+      "name": "SEO Specialist",
+      "description": "Analyzes search performance, optimizes content for organic traffic, and tracks keyword rankings",
+      "avatar": "🔍",
+      "category": "marketing",
+      "tags": ["seo", "search", "google", "analytics", "keywords", "rankings", "organic-traffic"],
+      "tier": "pro",
+      "version": "1.0.0",
+      "source": "specialists/seo-specialist.md"
+    },
+    "content-writer": {
+      "id": "content-writer",
+      "name": "Content Writer",
+      "description": "Creates engaging blog posts, marketing copy, and documentation with SEO awareness",
+      "avatar": "✍️",
+      "category": "marketing",
+      "tags": ["content", "writing", "blog", "copywriting", "marketing", "documentation"],
+      "tier": "free",
+      "version": "1.0.0",
+      "source": "specialists/content-writer.md"
+    },
+    "blog-writer": {
+      "id": "blog-writer",
+      "name": "Blog Writer",
+      "description": "Expert blog writer for TeamDay. Creates engaging content in multiple styles with AI image generation and screenshot capabilities.",
+      "avatar": "📝",
+      "category": "marketing",
+      "tags": ["blog", "content", "writing", "marketing", "seo", "storytelling", "technical-writing"],
+      "tier": "pro",
+      "version": "1.0.0",
+      "requires": {
+        "skills": ["generate-image", "screenshot"],
+        "credentials": ["FAL_KEY"]
+      },
+      "source": "specialists/blog-writer.md"
+    },
+    "frontend-developer": {
+      "id": "frontend-developer",
+      "name": "Frontend Developer",
+      "description": "Builds responsive UIs with modern frameworks, focusing on performance and accessibility",
+      "avatar": "🎨",
+      "category": "development",
+      "tags": ["frontend", "react", "vue", "css", "typescript", "ui", "ux", "accessibility"],
+      "tier": "free",
+      "version": "1.0.0",
+      "source": "specialists/frontend-developer.md"
+    },
+    "backend-developer": {
+      "id": "backend-developer",
+      "name": "Backend Developer",
+      "description": "Designs and implements APIs, databases, and server-side logic with security best practices",
+      "avatar": "⚙️",
+      "category": "development",
+      "tags": ["backend", "api", "database", "nodejs", "python", "security", "architecture"],
+      "tier": "free",
+      "version": "1.0.0",
+      "source": "specialists/backend-developer.md"
+    },
+    "devops-engineer": {
+      "id": "devops-engineer",
+      "name": "DevOps Engineer",
+      "description": "Manages CI/CD pipelines, cloud infrastructure, and deployment automation",
+      "avatar": "🚀",
+      "category": "operations",
+      "tags": ["devops", "ci-cd", "docker", "kubernetes", "aws", "gcp", "terraform", "infrastructure"],
+      "tier": "pro",
+      "version": "1.0.0",
+      "source": "specialists/devops-engineer.md"
+    },
+    "data-analyst": {
+      "id": "data-analyst",
+      "name": "Data Analyst",
+      "description": "Transforms raw data into actionable insights through analysis, visualization, and reporting",
+      "avatar": "📊",
+      "category": "data",
+      "tags": ["data", "analytics", "sql", "visualization", "reporting", "metrics", "dashboards"],
+      "tier": "pro",
+      "version": "1.0.0",
+      "source": "specialists/data-analyst.md"
+    },
+    "agent-librarian": {
+      "id": "agent-librarian",
+      "name": "Agent Librarian",
+      "description": "Discovers, recommends, and installs agents and squads based on your needs",
+      "avatar": "📚",
+      "category": "productivity",
+      "tags": ["discovery", "onboarding", "agents", "squads", "install", "recommend"],
+      "tier": "free",
+      "version": "1.0.0",
+      "source": "librarian/agent-librarian.md"
+    }
+  },
+  "squads": {
+    "seo-website-squad": {
+      "id": "seo-website-squad",
+      "name": "SEO Website Squad",
+      "description": "Complete team for building SEO-optimized websites from content to code",
+      "avatar": "🏆",
+      "category": "marketing",
+      "tags": ["seo", "website", "content", "frontend", "full-stack"],
+      "agents": ["seo-specialist", "content-writer", "frontend-developer"],
+      "useCase": "Build SEO-optimized websites with quality content and modern UI",
+      "tier": "pro",
+      "source": "squads/seo-website-squad.md"
+    },
+    "full-stack-squad": {
+      "id": "full-stack-squad",
+      "name": "Full-Stack Squad",
+      "description": "End-to-end development team for building complete web applications",
+      "avatar": "🔧",
+      "category": "development",
+      "tags": ["fullstack", "frontend", "backend", "devops", "development"],
+      "agents": ["frontend-developer", "backend-developer", "devops-engineer"],
+      "useCase": "Build and deploy complete web applications",
+      "tier": "pro",
+      "source": "squads/full-stack-squad.md"
+    }
+  }
+}
