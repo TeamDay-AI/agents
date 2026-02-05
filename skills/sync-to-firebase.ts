@@ -151,6 +151,13 @@ function toDisplayName(slug: string): string {
     .join(' ')
 }
 
+// Parse allowed-tools which can be string or array
+function parseAllowedTools(tools: string | string[] | undefined): string[] {
+  if (!tools) return []
+  if (Array.isArray(tools)) return tools
+  return tools.split(',').map(t => t.trim())
+}
+
 // Sync skills for a provider
 async function syncProviderSkills(
   db: Firestore,
@@ -198,7 +205,7 @@ async function syncProviderSkills(
       provider,
       category: frontmatter.category || 'other',
       tags: frontmatter.tags || [provider],
-      allowedTools: frontmatter['allowed-tools']?.split(',').map(t => t.trim()) || [],
+      allowedTools: parseAllowedTools(frontmatter['allowed-tools']),
       model: frontmatter.model || null,
       requiredMcps: frontmatter.requires?.mcps || [],
       requiredCredentials: frontmatter.requires?.credentials || [],

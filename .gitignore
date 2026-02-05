@@ -167,3 +167,4 @@ bun.lock
 
 # Local settings
 .claude/settings.local.json
+secrets/
