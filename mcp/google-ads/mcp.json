@@ -1,0 +1,49 @@
+{
+  "id": "google-ads",
+  "name": "Google Ads",
+  "description": "Official Google Ads MCP server. Query ad accounts, retrieve campaign data, and list accessible customers. Experimental.",
+  "version": "0.1.0",
+  "author": "Google",
+  "category": "marketing",
+  "tags": ["ads", "google", "ppc", "campaigns", "advertising", "sem"],
+  "tier": "pro",
+  "icon": "https://www.gstatic.com/images/branding/product/1x/adwords_2024_64dp.png",
+  "official": true,
+  "experimental": true,
+
+  "transport": "stdio",
+  "runtime": {
+    "type": "pip",
+    "package": "google-ads-mcp",
+    "installSpec": "git+https://github.com/googleads/google-ads-mcp.git"
+  },
+
+  "env": {
+    "GOOGLE_ADS_DEVELOPER_TOKEN": {
+      "required": true,
+      "description": "Google Ads API developer token"
+    },
+    "GOOGLE_CLOUD_PROJECT": {
+      "required": true,
+      "description": "Google Cloud project ID"
+    },
+    "GOOGLE_ADS_LOGIN_CUSTOMER_ID": {
+      "required": false,
+      "description": "Manager account customer ID (for MCC accounts)"
+    }
+  },
+
+  "tools": [
+    { "name": "search", "description": "Query Google Ads account data using GAQL" },
+    { "name": "list_accessible_customers", "description": "List customers accessible by the authenticated user" }
+  ],
+
+  "links": {
+    "repository": "https://github.com/googleads/google-ads-mcp"
+  },
+
+  "usedBy": {
+    "agents": ["data-analyst"],
+    "plugins": ["seo-toolkit"]
+  }
+}

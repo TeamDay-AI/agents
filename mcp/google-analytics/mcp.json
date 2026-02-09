@@ -1,0 +1,48 @@
+{
+  "id": "google-analytics",
+  "name": "Google Analytics",
+  "description": "Official Google Analytics MCP server. Query GA4 accounts, run reports, get real-time visitor data, and access custom dimensions and metrics.",
+  "version": "0.1.1",
+  "author": "Google",
+  "category": "marketing",
+  "tags": ["analytics", "google", "ga4", "traffic", "reporting", "realtime"],
+  "tier": "pro",
+  "icon": "https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg",
+  "official": true,
+
+  "transport": "stdio",
+  "runtime": {
+    "type": "pip",
+    "package": "analytics-mcp"
+  },
+
+  "env": {
+    "GOOGLE_APPLICATION_CREDENTIALS": {
+      "required": true,
+      "description": "Path to Google service account JSON with Analytics read-only access"
+    },
+    "GOOGLE_CLOUD_PROJECT": {
+      "required": false,
+      "description": "Google Cloud project ID (for service account impersonation)"
+    }
+  },
+
+  "tools": [
+    { "name": "get_account_summaries", "description": "List user's GA accounts and properties" },
+    { "name": "get_property_details", "description": "Fetch property information" },
+    { "name": "list_google_ads_links", "description": "Retrieve linked Google Ads accounts" },
+    { "name": "run_report", "description": "Execute standard GA4 reports via Data API" },
+    { "name": "run_realtime_report", "description": "Pull real-time visitor data" },
+    { "name": "get_custom_dimensions_and_metrics", "description": "Return custom fields for a property" }
+  ],
+
+  "links": {
+    "repository": "https://github.com/googleanalytics/google-analytics-mcp",
+    "pypi": "https://pypi.org/project/analytics-mcp/"
+  },
+
+  "usedBy": {
+    "agents": ["seo-specialist", "data-analyst"],
+    "plugins": ["seo-toolkit"]
+  }
+}

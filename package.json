@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "sync": "bun run agents/sync-to-firebase.ts",
-    "sync:local": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8080 bun run agents/sync-to-firebase.ts"
+    "sync": "bun run agents/sync-to-firebase.ts && bun run plugins/sync-to-firebase.ts && bun run mcp/sync-to-firebase.ts",
+    "sync:local": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8080 bun run sync",
+    "sync:agents": "bun run agents/sync-to-firebase.ts",
+    "sync:plugins": "bun run plugins/sync-to-firebase.ts",
+    "sync:mcp": "bun run mcp/sync-to-firebase.ts",
+    "sync:mcp:local": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8080 bun run mcp/sync-to-firebase.ts"
   },
   "dependencies": {
     "firebase-admin": "^12.0.0",

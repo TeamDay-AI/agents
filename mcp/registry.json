@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-09",
+  "servers": {
+    "search-console": {
+      "id": "search-console",
+      "name": "Google Search Console",
+      "description": "Lightweight Search Console server — query rankings, impressions, CTR, and top pages",
+      "icon": "https://www.gstatic.com/images/branding/product/1x/search_console_2020q4_64dp.png",
+      "category": "marketing",
+      "tags": ["seo", "search-console", "google", "rankings", "organic-traffic"],
+      "tier": "pro",
+      "version": "1.0.0",
+      "runtimeType": "local",
+      "toolCount": 5,
+      "source": "search-console-mcp"
+    },
+    "search-console-advanced": {
+      "id": "search-console-advanced",
+      "name": "Search Console Advanced",
+      "description": "Feature-rich Search Console with URL inspection, sitemap management, and period comparison",
+      "icon": "https://www.gstatic.com/images/branding/product/1x/search_console_2020q4_64dp.png",
+      "category": "marketing",
+      "tags": ["seo", "search-console", "google", "url-inspection", "sitemaps", "indexing"],
+      "tier": "pro",
+      "version": "1.0.0",
+      "runtimeType": "git",
+      "toolCount": 18,
+      "source": "search-console-advanced"
+    },
+    "google-analytics": {
+      "id": "google-analytics",
+      "name": "Google Analytics",
+      "description": "Official GA4 server — accounts, reports, real-time data, and custom dimensions",
+      "icon": "https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg",
+      "category": "marketing",
+      "tags": ["analytics", "google", "ga4", "traffic", "reporting", "realtime"],
+      "tier": "pro",
+      "version": "0.1.1",
+      "runtimeType": "pip",
+      "toolCount": 6,
+      "official": true,
+      "source": "google-analytics"
+    },
+    "google-ads": {
+      "id": "google-ads",
+      "name": "Google Ads",
+      "description": "Official Google Ads server — query accounts via GAQL and list customers",
+      "icon": "https://www.gstatic.com/images/branding/product/1x/adwords_2024_64dp.png",
+      "category": "marketing",
+      "tags": ["ads", "google", "ppc", "campaigns", "advertising"],
+      "tier": "pro",
+      "version": "0.1.0",
+      "runtimeType": "pip",
+      "toolCount": 2,
+      "official": true,
+      "experimental": true,
+      "source": "google-ads"
+    }
+  }
+}

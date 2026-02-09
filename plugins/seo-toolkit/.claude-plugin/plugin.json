@@ -37,9 +37,10 @@
   "mcpServers": {
     "search-console": {
       "command": "node",
-      "args": ["${PLUGIN_PATH}/mcp-servers/search-console/index.js"],
+      "args": ["${REPO_ROOT}/mcp/search-console-mcp/index.js"],
       "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "${GOOGLE_APPLICATION_CREDENTIALS}"
+        "GOOGLE_APPLICATION_CREDENTIALS": "${GOOGLE_APPLICATION_CREDENTIALS}",
+        "SITE_URL": "${SITE_URL}"
       }
     },
     "google-analytics": {

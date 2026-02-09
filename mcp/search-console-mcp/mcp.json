@@ -1,0 +1,59 @@
+{
+  "id": "search-console",
+  "name": "Google Search Console",
+  "description": "Query Google Search Console data including rankings, impressions, CTR, and top pages. Supports custom site URLs for any verified property.",
+  "version": "1.0.0",
+  "author": "TeamDay",
+  "category": "marketing",
+  "tags": ["seo", "search-console", "google", "rankings", "impressions", "ctr", "organic-traffic"],
+  "tier": "pro",
+  "icon": "https://www.gstatic.com/images/branding/product/1x/search_console_2020q4_64dp.png",
+
+  "transport": "stdio",
+  "runtime": {
+    "type": "local",
+    "command": "node",
+    "args": ["index.js"],
+    "installCommand": "npm install"
+  },
+
+  "env": {
+    "GOOGLE_APPLICATION_CREDENTIALS": {
+      "required": true,
+      "description": "Path to Google service account JSON file with Search Console access"
+    },
+    "SITE_URL": {
+      "required": false,
+      "description": "Search Console property URL (e.g. sc-domain:example.com)",
+      "default": "sc-domain:teamday.ai"
+    }
+  },
+
+  "tools": [
+    {
+      "name": "list_sites",
+      "description": "List all sites you have access to in Search Console"
+    },
+    {
+      "name": "query_search_analytics",
+      "description": "Query raw search analytics data with custom dimensions and filters"
+    },
+    {
+      "name": "get_top_queries",
+      "description": "Get top search queries for the last N days"
+    },
+    {
+      "name": "get_top_pages",
+      "description": "Get top pages for the last N days"
+    },
+    {
+      "name": "get_performance_summary",
+      "description": "Get overall performance summary (clicks, impressions, CTR, position)"
+    }
+  ],
+
+  "usedBy": {
+    "agents": ["seo-specialist"],
+    "plugins": ["seo-toolkit"]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "search-console-advanced",
+  "name": "Search Console Advanced",
+  "description": "Feature-rich Google Search Console server with 19 tools including URL inspection, sitemap management, batch operations, and period comparison. Community-built by AminForou.",
+  "version": "1.0.0",
+  "author": "AminForou",
+  "category": "marketing",
+  "tags": ["seo", "search-console", "google", "url-inspection", "sitemaps", "indexing"],
+  "tier": "pro",
+  "icon": "https://www.gstatic.com/images/branding/product/1x/search_console_2020q4_64dp.png",
+
+  "transport": "stdio",
+  "runtime": {
+    "type": "git",
+    "repository": "https://github.com/AminForou/mcp-gsc",
+    "command": "python",
+    "args": ["gsc_server.py"],
+    "installCommand": "pip install -r requirements.txt",
+    "requiresVenv": true,
+    "pythonVersion": "3.11+"
+  },
+
+  "env": {
+    "GSC_OAUTH_CLIENT_SECRETS_FILE": {
+      "required": false,
+      "description": "Path to OAuth client secrets JSON (for user-level auth)"
+    },
+    "GSC_CREDENTIALS_PATH": {
+      "required": false,
+      "description": "Path to service account credentials JSON"
+    },
+    "GSC_SKIP_OAUTH": {
+      "required": false,
+      "description": "Set to 'true' to use service account instead of OAuth",
+      "default": "false"
+    }
+  },
+
+  "tools": [
+    { "name": "list_properties", "description": "List all Search Console properties" },
+    { "name": "get_site_details", "description": "Details about a specific property" },
+    { "name": "add_site", "description": "Add a new site to Search Console" },
+    { "name": "delete_site", "description": "Remove a site from Search Console" },
+    { "name": "get_search_analytics", "description": "Search analytics with dimensions and date ranges" },
+    { "name": "get_performance_overview", "description": "Aggregated performance metrics and trends" },
+    { "name": "get_advanced_search_analytics", "description": "Advanced query with sorting, filtering, pagination" },
+    { "name": "compare_search_periods", "description": "Compare analytics between two time periods" },
+    { "name": "get_search_by_page_query", "description": "Queries driving traffic to specific pages" },
+    { "name": "inspect_url_enhanced", "description": "Check indexing status and rich results for a URL" },
+    { "name": "batch_url_inspection", "description": "Inspect multiple URLs simultaneously" },
+    { "name": "check_indexing_issues", "description": "Analyze URLs for indexing problems" },
+    { "name": "get_sitemaps", "description": "List all sitemaps for a property" },
+    { "name": "list_sitemaps_enhanced", "description": "Detailed sitemap listing with submission dates" },
+    { "name": "get_sitemap_details", "description": "Detailed info about a specific sitemap" },
+    { "name": "submit_sitemap", "description": "Submit a new sitemap to Google" },
+    { "name": "delete_sitemap", "description": "Remove a sitemap from Search Console" },
+    { "name": "manage_sitemaps", "description": "Unified sitemap CRUD operations" }
+  ],
+
+  "links": {
+    "repository": "https://github.com/AminForou/mcp-gsc"
+  },
+
+  "usedBy": {
+    "agents": ["seo-specialist"],
+    "plugins": ["seo-toolkit"]
+  }
+}

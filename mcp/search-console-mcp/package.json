@@ -1,0 +1,21 @@
+{
+  "name": "@teamday/mcp-search-console",
+  "version": "1.0.0",
+  "description": "MCP server for Google Search Console - query rankings, impressions, CTR, and search analytics",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mcp-search-console": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "search-console", "google", "seo", "analytics"],
+  "author": "TeamDay <support@teamday.ai>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "google-auth-library": "^10.5.0",
+    "googleapis": "^169.0.0"
+  }
+}
