@@ -11,7 +11,7 @@
  */
 
 const REDDIT_BASE = "https://www.reddit.com";
-const USER_AGENT = "TeamDay-RedditSkill/1.0 (research bot)";
+const USER_AGENT = "RedditSkill/1.0 (research bot)";
 
 interface CommentData {
   author: string;

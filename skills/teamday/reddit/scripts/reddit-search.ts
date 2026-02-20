@@ -11,7 +11,7 @@
  */
 
 const REDDIT_BASE = "https://www.reddit.com";
-const USER_AGENT = "TeamDay-RedditSkill/1.0 (research bot)";
+const USER_AGENT = "RedditSkill/1.0 (research bot)";
 
 interface RedditPost {
   title: string;
@@ -141,7 +141,7 @@ const args = process.argv.slice(2);
 
 if (args.length === 0 || args[0] === "--help") {
   console.log(`
-Reddit Search — find relevant discussions for TeamDay
+Reddit Search — find relevant discussions
 
 Usage:
   bun .claude/skills/reddit/scripts/reddit-search.ts "<query>" [options]
