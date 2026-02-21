@@ -3,6 +3,9 @@ name: linkedin
 description: Post updates to a LinkedIn company page. Use for sharing blog posts, product updates, AI-generated content, and company announcements. Supports text posts, article shares with link previews, and image posts.
 version: 1.0.0
 allowed-tools: Bash, Read
+env:
+  - LINKEDIN_ACCESS_TOKEN
+  - LINKEDIN_ORG_ID
 metadata:
   requires: credential-activation
   credentials:

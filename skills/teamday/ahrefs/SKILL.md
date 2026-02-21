@@ -2,7 +2,9 @@
 name: ahrefs
 description: Query Ahrefs SEO data — backlinks, domain rating, organic keywords, competitors, and SERP analysis. Use for competitive analysis, link building, and keyword research.
 allowed-tools: Bash, Read, Write, WebSearch
-env: AHREFS_API_KEY | AHREFS_MCP_TOKEN
+env:
+  - AHREFS_API_KEY
+  - AHREFS_MCP_TOKEN
 ---
 
 # Ahrefs SEO Analysis Skill

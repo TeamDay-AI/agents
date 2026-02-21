@@ -2,7 +2,11 @@
 name: generate-image
 description: Generate AI images using FAL AI, Gemini, OpenAI, or Grok (xAI). Use for blog covers, marketing visuals, social media content, or any image generation needs. Supports multiple aspect ratios and styles.
 allowed-tools: Bash, Read, Write
-env: FAL_KEY | GEMINI_API_KEY | OPENAI_API_KEY | XAI_API_KEY
+env:
+  - FAL_KEY
+  - GEMINI_API_KEY
+  - OPENAI_API_KEY
+  - XAI_API_KEY
 ---
 
 # AI Image Generation
@@ -118,6 +122,16 @@ connecting upward, professional color palette of blues and greens"
 - **Options**: `--aspect=RATIO`, `--resolution=RES`, `--n=COUNT`
 - **Strengths**: Very affordable, fast, good creative output
 - **Requires**: XAI_API_KEY
+
+## Dependencies
+
+Install required packages before using:
+
+```bash
+bun add @fal-ai/client @google/genai openai
+```
+
+Only install what you need — `@fal-ai/client` for FAL AI, `@google/genai` for Gemini, `openai` for OpenAI. Grok uses raw `fetch` and needs no extra package.
 
 ## Output
 

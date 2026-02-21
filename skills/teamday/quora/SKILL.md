@@ -2,7 +2,9 @@
 name: quora
 description: Search Quora for relevant questions and draft authoritative, helpful responses. Quora answers are evergreen and often rank on Google page 1 — high-ROI thought leadership channel.
 allowed-tools: Bash, Read, Write, WebSearch, WebFetch
-env: DATAFORSEO_LOGIN, DATAFORSEO_PASSWORD
+env:
+  - DATAFORSEO_LOGIN
+  - DATAFORSEO_PASSWORD
 ---
 
 # Quora Engagement Skill

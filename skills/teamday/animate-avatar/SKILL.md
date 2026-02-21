@@ -2,7 +2,8 @@
 name: animate-avatar
 description: Generate animated videos from static avatar images using FAL AI. Create looping work and relax animations with Kling V2.6 Pro, LTX, or Veo models.
 allowed-tools: Bash, Read, Write
-env: FAL_KEY
+env:
+  - FAL_KEY
 ---
 
 # Animate Avatar Skill

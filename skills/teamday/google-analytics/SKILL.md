@@ -2,6 +2,9 @@
 name: google-analytics
 description: Query Google Analytics 4 data for traffic analysis, page performance, user engagement, and realtime monitoring.
 allowed-tools: Bash, Read, Write
+env:
+  - GA4_PROPERTY_ID
+  - GOOGLE_PROJECT_ID
 ---
 
 # Google Analytics Reporting
@@ -64,6 +67,14 @@ export GA4_PROPERTY_ID=123456789
 ```bash
 gcloud auth application-default login \
   --scopes https://www.googleapis.com/auth/analytics.readonly,https://www.googleapis.com/auth/cloud-platform
+```
+
+## Dependencies
+
+Install required packages before using:
+
+```bash
+bun add google-auth-library
 ```
 
 ## When to Use

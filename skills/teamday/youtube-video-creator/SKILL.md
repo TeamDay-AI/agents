@@ -2,7 +2,9 @@
 name: youtube-video-creator
 description: Create YouTube videos from scratch — script, images, narration, assembly, upload. Full production pipeline from topic to published video.
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep
-env: ELEVENLABS_API_KEY | FAL_KEY
+env:
+  - ELEVENLABS_API_KEY
+  - FAL_KEY
 ---
 
 # YouTube Video Creator

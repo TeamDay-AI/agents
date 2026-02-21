@@ -2,7 +2,8 @@
 name: image-to-video
 description: Generate videos from static images using FAL AI models — Kling V2.6 Pro for premium quality with audio, Wan V2.6 for fast generation. Handles avatar animations, product demos, and marketing clips.
 allowed-tools: Bash, Read, Write
-env: FAL_KEY
+env:
+  - FAL_KEY
 ---
 
 # Image to Video Skill

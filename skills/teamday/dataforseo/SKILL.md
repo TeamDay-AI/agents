@@ -2,7 +2,9 @@
 name: dataforseo
 description: Query live SERP data from Google, Bing, and YouTube via DataForSEO. See exactly what search results look like right now — organic results, featured snippets, knowledge graphs, AI overviews, local packs, and more.
 allowed-tools: Bash, Read, Write, WebSearch
-env: DATAFORSEO_LOGIN, DATAFORSEO_PASSWORD
+env:
+  - DATAFORSEO_LOGIN
+  - DATAFORSEO_PASSWORD
 ---
 
 # DataForSEO SERP Analysis Skill

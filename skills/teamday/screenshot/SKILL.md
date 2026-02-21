@@ -2,6 +2,8 @@
 name: screenshot
 description: Take screenshots of web pages for blog posts, documentation, and marketing. Capture full pages, specific elements, dark mode, and custom dimensions.
 allowed-tools: Bash, Read, Write
+env:
+  - SCREENSHOT_OUTPUT_DIR
 ---
 
 # Screenshot Skill
@@ -43,6 +45,15 @@ bun .claude/skills/screenshot/scripts/screenshot.ts https://example.com header.w
 | `--wait` | 2000 | Wait time in ms after page load |
 | `--full` | false | Capture full page (scrollable) |
 | `--selector` | null | Screenshot specific element only |
+
+## Dependencies
+
+Install required packages before using:
+
+```bash
+bun add playwright sharp
+npx playwright install chromium
+```
 
 ## First-Time Setup
 
