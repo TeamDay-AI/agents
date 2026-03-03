@@ -721,7 +721,9 @@ function printReport(results: PageResult[], extraIssues: Issue[], commonLinksRep
       byCategory.set(issue.category, { errors: 0, warnings: 0, notices: 0, examples: [] });
     }
     const cat = byCategory.get(issue.category)!;
-    cat[issue.severity]++;
+    if (issue.severity === 'error') cat.errors++;
+    else if (issue.severity === 'warning') cat.warnings++;
+    else cat.notices++;
     if (cat.examples.length < 3) cat.examples.push(issue);
   }
 
@@ -856,7 +858,9 @@ function formatMarkdown(results: PageResult[], extraIssues: Issue[], commonLinks
       byCategory.set(issue.category, { errors: 0, warnings: 0, notices: 0, examples: [] });
     }
     const cat = byCategory.get(issue.category)!;
-    cat[issue.severity]++;
+    if (issue.severity === 'error') cat.errors++;
+    else if (issue.severity === 'warning') cat.warnings++;
+    else cat.notices++;
     if (cat.examples.length < 5) cat.examples.push(issue);
   }
 
@@ -902,7 +906,7 @@ function formatMarkdown(results: PageResult[], extraIssues: Issue[], commonLinks
   ];
 
   for (const [category, data] of sortedCats) {
-    lines.push(`| ${category} | ${data.errors || '-'} | ${data.warnings || '-'} | ${data.notices || '-'} |`);
+    lines.push(`| ${category} | ${data.errors > 0 ? data.errors : '-'} | ${data.warnings > 0 ? data.warnings : '-'} | ${data.notices > 0 ? data.notices : '-'} |`);
   }
 
   // Top issues with fixes
