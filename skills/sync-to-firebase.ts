@@ -32,6 +32,8 @@ interface SkillFrontmatter {
   model?: string
   category?: string
   tags?: string[]
+  author?: string
+  source?: string
   requires?: {
     mcps?: string[]
     credentials?: string[]
@@ -51,6 +53,8 @@ interface FirestoreSkill {
   model: string | null
   requiredMcps: string[]
   requiredCredentials: string[]
+  author: string | null
+  sourceUrl: string | null
   source: {
     type: 'github'
     repo: string
@@ -209,6 +213,8 @@ async function syncProviderSkills(
       model: frontmatter.model || null,
       requiredMcps: frontmatter.requires?.mcps || [],
       requiredCredentials: frontmatter.requires?.credentials || [],
+      author: frontmatter.author || null,
+      sourceUrl: frontmatter.source || null,
       source: {
         type: 'github',
         repo: sourceRepo,
