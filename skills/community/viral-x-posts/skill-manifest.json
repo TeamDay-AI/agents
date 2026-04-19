@@ -1,0 +1,19 @@
+{
+  "slug": "viral-x-posts",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "references/cheatsheet.md",
+      "checksum": "0f3896f6505b400d2127af66f86f41e24f4691930dcd3f0bf617f50bd59f789b"
+    },
+    {
+      "path": "references/formulas.md",
+      "checksum": "bf6ac37b0d455719dbbe37d1878741f77ece59622a79791750e0674c139267b8"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "8f675225e103f770d89faec1c242e480fadd4297e64ee38f5804aa1bddb61e01"
+    }
+  ]
+}

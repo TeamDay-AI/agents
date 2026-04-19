@@ -1,0 +1,59 @@
+{
+  "slug": "aws-agentic-ai",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "cross-service/credential-management.md",
+      "checksum": "3d95d7e3ea3e3aeb9c7de6841342c4411e1f21c48997625e8a3378b32d1a6bf0"
+    },
+    {
+      "path": "services/browser/README.md",
+      "checksum": "58d6c9cf3312746af5cc5a9368a8311ce591e7f51d738fbe9f6227d123b33fe6"
+    },
+    {
+      "path": "services/code-interpreter/README.md",
+      "checksum": "eeabe50bd5696214800970aa1be60ecba255a3b2c9591f117b30895a145058c7"
+    },
+    {
+      "path": "services/gateway/deploy-template.sh",
+      "checksum": "36bb674e271c7cd9153e550286c4bdaf6007fc4624b3ff63eb4e3df9abfe1407"
+    },
+    {
+      "path": "services/gateway/deployment-strategies.md",
+      "checksum": "cc6adf0445039653bb8e66434bf1b15e4a2fe9fb0234fc106020a030ef316149"
+    },
+    {
+      "path": "services/gateway/README.md",
+      "checksum": "7af97b6b5011be105980d06539d4ff105bca2d3a1c195de8e98640dee78c89da"
+    },
+    {
+      "path": "services/gateway/troubleshooting-guide.md",
+      "checksum": "4b6cd69a7ca6fd5ad2d820fbfcd770c64d758af8097dccdfaf72ad785e4ae5ce"
+    },
+    {
+      "path": "services/gateway/validate-deployment.sh",
+      "checksum": "4a0f1ccbb1169aafc299c296d1be483f14ca2441185b623a37eda64fc4cbbfd8"
+    },
+    {
+      "path": "services/identity/README.md",
+      "checksum": "81f92364154e18561d36a2938b06fb77a9c413a62dfb946cb3becd922e3590f3"
+    },
+    {
+      "path": "services/memory/README.md",
+      "checksum": "c260696aba371a32f4ff87bd57024e237c7d3876290b96117bd7d1fc13d6e2bc"
+    },
+    {
+      "path": "services/observability/README.md",
+      "checksum": "3fc93485ae5d1f2479f36f7fa3d0dc3e89ef276f0438391982c06eb8481e3376"
+    },
+    {
+      "path": "services/runtime/README.md",
+      "checksum": "a650857d56bfa8a47a0a0c88f5bb3c6d04f89850f0361826acae434de6b9d20c"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "65525657efa342a45765e41e781ce734f174fab6467f9795cbba270ff2177461"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "sqlite",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "3b40421075ad5e3ce6de31b23bed9d72ad3008f1ba5f1606c1b6485e94ce94cc"
+    }
+  ]
+}

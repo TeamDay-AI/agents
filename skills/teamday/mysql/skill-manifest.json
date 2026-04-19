@@ -1,0 +1,11 @@
+{
+  "slug": "mysql",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "9063bacc1f0eeda419e4b43d021f57e0faac2bff7af3ea623faaf62c10ebbe45"
+    }
+  ]
+}

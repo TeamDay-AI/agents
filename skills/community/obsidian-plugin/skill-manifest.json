@@ -1,0 +1,43 @@
+{
+  "slug": "obsidian-plugin",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "reference/accessibility.md",
+      "checksum": "b2c2124d44c7857e003621101d842a705e732c3e3737d692f9ae15ed116fe691"
+    },
+    {
+      "path": "reference/code-quality.md",
+      "checksum": "b2c7f4be6df769cfc5025eae712242d9108106d5ecfd8f31e0a4c27a8c58c41c"
+    },
+    {
+      "path": "reference/css-styling.md",
+      "checksum": "1e8a6bec266e56375d47dbe6aa9e3c58694259769baa28488ad85311a421332d"
+    },
+    {
+      "path": "reference/file-operations.md",
+      "checksum": "feb9954966dd84016822bd508969a3c1d3f021b7ec2c1d7ae40231aa644de246"
+    },
+    {
+      "path": "reference/memory-management.md",
+      "checksum": "3629ddfe96564015dcf01eb7592b5618436d2872a4d317500176089b25e7019d"
+    },
+    {
+      "path": "reference/submission.md",
+      "checksum": "96c4561435e6ac98c5a67c7bfdf7f8daa8efdb86ff58833bafc7ba0299bf90b6"
+    },
+    {
+      "path": "reference/type-safety.md",
+      "checksum": "e36d40c881b046bc6cd28ff487e5c616da9d7499c81a81afc7167ec6f3ceefe6"
+    },
+    {
+      "path": "reference/ui-ux.md",
+      "checksum": "71dfb09e2f24337c68b8fe251d1e1e56da41c14a985b20198ca696596d9609dc"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "5b7b287d87900b72523f0770f009200b60297dc0587bd6725300542f28e7dd43"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "aws-serverless-eda",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "references/deployment-best-practices.md",
+      "checksum": "f94b18c62732f950a29b3e4cd11134ba397c2cfce4b3bb777ee729c17c9f1268"
+    },
+    {
+      "path": "references/eda-patterns.md",
+      "checksum": "c3518448e773c0e93d1a1f518d3d8d67475995bf3211ae1cf57cac46447ea6e1"
+    },
+    {
+      "path": "references/observability-best-practices.md",
+      "checksum": "531977c659a774fec3dabd4c369789d5979bceb83cd4656bfe818929569c9e7a"
+    },
+    {
+      "path": "references/performance-optimization.md",
+      "checksum": "5086493fbeb4c97c1bc891484d6deecbfbc6d02a9422f6854dd8c7274320bfa6"
+    },
+    {
+      "path": "references/security-best-practices.md",
+      "checksum": "511f6e0921f852947db893ca64c093e15f728f6b4e35c40423a50f1398278261"
+    },
+    {
+      "path": "references/serverless-patterns.md",
+      "checksum": "8b7408d9c98f8224290093acb831468b9a01bd8d17436e301d4383c18c556f2c"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "393f6ccabf7884f9edbd4ecaa46ffe7cf8811f263548128ae379ca23f8d3a970"
+    }
+  ]
+}

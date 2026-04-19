@@ -1,0 +1,19 @@
+{
+  "slug": "aws-cost-ops",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "references/cloudwatch-alarms.md",
+      "checksum": "046a77894379a0b0585109fbcc397509702ff270700813ad46234896dbe2d894"
+    },
+    {
+      "path": "references/operations-patterns.md",
+      "checksum": "9a9e081830695224db93d7b0cab8462d479d33c50c18e3740ef1848f1e051486"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "bdbf1b3f54ccee252be8c3b21940cf5e0e4746a44fd5e5d71df2c7407ccd5ff5"
+    }
+  ]
+}

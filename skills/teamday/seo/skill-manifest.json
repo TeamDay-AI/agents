@@ -1,0 +1,47 @@
+{
+  "slug": "seo",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "related-skills/analytics-tracking.md",
+      "checksum": "a64a8169759ff0952d7a77efaafb31e288f86fa6caca9641a4758c9fc4fc886a"
+    },
+    {
+      "path": "related-skills/competitor-alternatives.md",
+      "checksum": "b43a1d1490af8f70732db8651cf13f5ae2c25fa991c2e5a7c3cef078b6cfce29"
+    },
+    {
+      "path": "related-skills/copywriting.md",
+      "checksum": "fad9bd7be28deb44fa2a8a4ca3eafe9e3b342cf0dba77c006af77cc5e71551ef"
+    },
+    {
+      "path": "related-skills/page-cro.md",
+      "checksum": "d427a1651bec44ee5ad96bc3d85b858e9a63bc7888692c8d63b1891aff1cabab"
+    },
+    {
+      "path": "related-skills/programmatic-seo.md",
+      "checksum": "cd593104c5c274c56d2da5b9b04ace239a7386b68943c1df80142507bebacb45"
+    },
+    {
+      "path": "related-skills/schema-markup.md",
+      "checksum": "2c9c6524923ab5f0c12da18eded188f60ccf01165a2f5a43a79c0c6439c0ea06"
+    },
+    {
+      "path": "scripts/health-score.ts",
+      "checksum": "daa863ebe7bbfbf15a8884bcb1b07034e10024369c2fd97774f784aff20e2b94"
+    },
+    {
+      "path": "scripts/umami-report.ts",
+      "checksum": "bffe1c0e027f2e193a8de6b09633a55d0f95584bf481c216f0d56263626292e9"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "159ee370793a145a1cfece2da81c64da4be846beba00d8e362f344c0b0625881"
+    },
+    {
+      "path": "strategy/teams-seo-strategy.md",
+      "checksum": "92601fa8c71507655ceeaa944787deca7514a27c437c7f88485723761bfc5bb6"
+    }
+  ]
+}

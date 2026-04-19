@@ -1,0 +1,15 @@
+{
+  "slug": "screenshot",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/screenshot.ts",
+      "checksum": "7a58b5f1ae0e3bea7ec7e74722151c4758bf837ad221b4742921facca5614337"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "a2049a9e7ffb9972696708a26e61103729442285ba849136cd87c903bc734027"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "email",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "ba150aa77c5e99a3734ae5608d3ed5754b4c903a2b3b1702cae25105d7b31832"
+    }
+  ]
+}

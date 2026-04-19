@@ -1,0 +1,19 @@
+{
+  "slug": "hackernews",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/hn-search.ts",
+      "checksum": "710ad77178f3c9669e6d7aafa0c755bb3b09a974c68f4fad68a3aa077fa40364"
+    },
+    {
+      "path": "scripts/hn-thread.ts",
+      "checksum": "081ded8e689db1b626b8e580162ac37a09a0b606d5831baae8a3df392f9f0105"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "8514e0fb6d2a3bbd294a8aac823acdee7862d00f7db26b8e6db78576e703179c"
+    }
+  ]
+}

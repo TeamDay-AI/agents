@@ -1,0 +1,11 @@
+{
+  "slug": "dataforseo",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "ac92294928f976c013a9bcaee5168d0a0541d19ed512d7de61b08681bd7c460e"
+    }
+  ]
+}

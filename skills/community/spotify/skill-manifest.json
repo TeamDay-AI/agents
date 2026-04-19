@@ -1,0 +1,59 @@
+{
+  "slug": "spotify",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": ".env.example",
+      "checksum": "ce7ef53799eddcc158f2354e09eacf9a01366c8c09f5e1c9ad3700e6f676d97a"
+    },
+    {
+      "path": "ADVANCED_USAGE.md",
+      "checksum": "f33024085eb21a04a2e66839ee9b0386fde42bf7943876b50a754742063089ee"
+    },
+    {
+      "path": "COVER_ART_TROUBLESHOOTING.md",
+      "checksum": "76dd2741dd11b3f4bebe0085a3faca6b9ca3a8ff1afd6777321a912ce220b954"
+    },
+    {
+      "path": "references/api_reference.md",
+      "checksum": "9696f9cca1b260df299473f9a1ca1fbc3d135a2afc057ae1f4892e6bfd426b11"
+    },
+    {
+      "path": "references/authentication_guide.md",
+      "checksum": "55f0f8f86717cd5399a925ead7c505787f4442b8b842469952b2941f6b56bacc"
+    },
+    {
+      "path": "references/COVER_ART_LLM_GUIDE.md",
+      "checksum": "73290aebc74ea09104ba8b85ec09f252ae11ffa48d4cdb862ecbf15f197094a1"
+    },
+    {
+      "path": "requirements.txt",
+      "checksum": "87f8d6a6aad8d3344c85aaa9766852e1b8b1b5f9232d4278bd0a7c1e1da3b1b8"
+    },
+    {
+      "path": "scripts/cover_art_generator.py",
+      "checksum": "14efd581d7da4c97f4de03ba44c8d219f46ab83692700358955c22d784539aa4"
+    },
+    {
+      "path": "scripts/export_data.py",
+      "checksum": "b5551a578e4ab94ebc46497998ffaf793983a917602ab94f7f1a1fef0196edf6"
+    },
+    {
+      "path": "scripts/playlist_creator.py",
+      "checksum": "895ff18bc718f257cfd4d0b3acea0edabc0a3348fe49ce8d62a05e3ec7083fa9"
+    },
+    {
+      "path": "scripts/spotify_client.py",
+      "checksum": "3bff5ef417437201c87379379a897609fbd5aba0c3d9120a228d3545bfc5d0f9"
+    },
+    {
+      "path": "scripts/test_credentials.py",
+      "checksum": "7907528799b6a07b6e7b44b145acf9bd20dfcc4a18d97c3cc736f7fcbca33585"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "739494ecedd55fd948205d5d196144f4563cf098efc5a95062048ec28363611f"
+    }
+  ]
+}

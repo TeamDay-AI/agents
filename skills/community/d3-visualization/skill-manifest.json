@@ -1,0 +1,35 @@
+{
+  "slug": "d3-visualization",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "assets/chart-template.jsx",
+      "checksum": "3aa2859ee1078ec3b9cc47f666cd02b8f96a3bfab5562aea0c4d9b14d4387c39"
+    },
+    {
+      "path": "assets/interactive-template.jsx",
+      "checksum": "d2a8bb59d33c754ed2b7dfed6fbf38f3463c5486c82704b322e098d1f47d209e"
+    },
+    {
+      "path": "assets/sample-data.json",
+      "checksum": "4d5912eeb26a8faad2aed5679a5f1b1134bb9ffb0b6396cf7158f96b0bdcde0a"
+    },
+    {
+      "path": "references/colour-schemes.md",
+      "checksum": "3db0ecfc0bd489ecd63f5a0ab560215bcd84e2c6bb69cce991a86bca09a00d9d"
+    },
+    {
+      "path": "references/d3-patterns.md",
+      "checksum": "9e3a63dc969180568bd2fb90c7142da1147723ff49ec76dfaae6a6cdec6ad1f3"
+    },
+    {
+      "path": "references/scale-reference.md",
+      "checksum": "89a9bad41f6a4057b7ac0ee29206dfb6e77836247d75f04773679e532b3f3619"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "e936ff1561f28dec9ceab85633bd3b33a68e699371bc9accfc3b533060269c95"
+    }
+  ]
+}

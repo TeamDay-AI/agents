@@ -1,0 +1,11 @@
+{
+  "slug": "postgresql",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "06f155890ca47fb81072c45dff7af76329d070f66c60afafe68df43fda6f43e2"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "csv-summarizer",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "1599338ac2db52bad14bb5e67152b3e27279e301a267d3c1a0f8239fab499169"
+    }
+  ]
+}

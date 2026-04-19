@@ -1,0 +1,11 @@
+{
+  "slug": "stream-coding",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "fe9ef437cd6d7963bc8edacb129804814386a213ab677317c1741a2b4640760f"
+    }
+  ]
+}

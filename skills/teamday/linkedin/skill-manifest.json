@@ -1,0 +1,11 @@
+{
+  "slug": "linkedin",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "37261434766827ffb8394820afd115ae6ee677223540abf635564c5266a6c3a5"
+    }
+  ]
+}

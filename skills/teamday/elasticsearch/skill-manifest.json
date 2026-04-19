@@ -1,0 +1,11 @@
+{
+  "slug": "elasticsearch",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "b488887507e4d457aeb455e190a3ba214956ff463750e5c41f4785da59f4dc24"
+    }
+  ]
+}

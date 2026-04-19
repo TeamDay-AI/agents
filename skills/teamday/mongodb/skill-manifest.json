@@ -1,0 +1,11 @@
+{
+  "slug": "mongodb",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "ca02355a55979abeef0273bcb0cd4d5461efde30e93353342581c3360b219cd2"
+    }
+  ]
+}

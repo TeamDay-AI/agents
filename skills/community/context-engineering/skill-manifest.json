@@ -1,0 +1,11 @@
+{
+  "slug": "context-engineering",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "2d8f0fa9c5f3e934df43dc7c1ba566077e2e7d4e0f9154d55a726c6fd62fadd4"
+    }
+  ]
+}

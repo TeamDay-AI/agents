@@ -1,0 +1,15 @@
+{
+  "slug": "self-scheduler",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "README.md",
+      "checksum": "37206b26558da51d3875732a73991478988080b7b46de5a175ed08458a2e4076"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "cfa96b0d6bd1596b7428aa2596726efc3066580eaff04cd5f66ebcb37dedfc06"
+    }
+  ]
+}

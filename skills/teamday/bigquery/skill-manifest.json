@@ -1,0 +1,11 @@
+{
+  "slug": "bigquery",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "5fe404c7653b6e1e07ebb8a7cccd46f89696889f89f7b2e35bfb5429abeb27e6"
+    }
+  ]
+}

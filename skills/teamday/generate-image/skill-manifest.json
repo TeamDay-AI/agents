@@ -1,0 +1,43 @@
+{
+  "slug": "generate-image",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/generate-avatar.ts",
+      "checksum": "5e1c731cfe15559cfaf997fc9e5130428454082e84423874dd0b2f1ed68e5946"
+    },
+    {
+      "path": "scripts/generate-image-gemini.ts",
+      "checksum": "cebbfd3609e328f7140c80f13a9823ad91a9df0baad89ad66e8cd4ab6b076826"
+    },
+    {
+      "path": "scripts/generate-image-grok.ts",
+      "checksum": "dd4243c8fe743997f8334360f50eb633f8f584fbc427e5f20d5de36be986e97a"
+    },
+    {
+      "path": "scripts/generate-image-openai.ts",
+      "checksum": "75f4cce47abe7b0bfd2b39e6deae8715c3a082fad07d50c26da1278ef4697e52"
+    },
+    {
+      "path": "scripts/generate-image-seedream-modelark.py",
+      "checksum": "d91cc13df2bbb5b3d4f01775ee47a519a8eaeaf5a564c8b9d9da58f430f7df7f"
+    },
+    {
+      "path": "scripts/generate-image-seedream.py",
+      "checksum": "8ba6bbb74d96d3590e976cf03dede1542ce729241e712c5701697bfd1ef09cb4"
+    },
+    {
+      "path": "scripts/generate-image.ts",
+      "checksum": "f396d69f529dc1541b3106943a89a68c2c96875dcf0a0f69ada86cdd0e7bbf8f"
+    },
+    {
+      "path": "scripts/optimize-avatar.sh",
+      "checksum": "e01f5e9df04d2d4328c412c9094d6f8125c6e6805057d732817230d31f9faea7"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "c9c9042226aed2d5d2fe7ff517ac3c1735cb98123f47d00e172f7bbdec4dd31c"
+    }
+  ]
+}

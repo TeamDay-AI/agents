@@ -1,0 +1,11 @@
+{
+  "slug": "image-video-generation",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "170340f77fb9baf3d594bab1259b8aca87fa9aaff6003a186fa19bf8872fbd13"
+    }
+  ]
+}

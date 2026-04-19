@@ -1,0 +1,19 @@
+{
+  "slug": "aws-cdk",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "references/cdk-patterns.md",
+      "checksum": "7f52e2cf01b768312f7aa0209be6ede0754a80957ca326e4ea618ca138952d4b"
+    },
+    {
+      "path": "scripts/validate-stack.sh",
+      "checksum": "e12cea6a3dd6ea83ae564ed1d0dedf4b3cc3285f8ec91d5d4a0c91ef95795a4f"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "63d5a01c51c01ae4d6cc99f4773e21cfc40643f688ec5782d207e15a4e30f846"
+    }
+  ]
+}

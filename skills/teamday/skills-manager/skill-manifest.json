@@ -1,0 +1,11 @@
+{
+  "slug": "skills-manager",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "fb3b2ff45da00d0126c8d65b410d641b056c9e154719adaa7aba0d3ed0afff4f"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "notify-user",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "04345ffe18d7bdb52f6b2d2b39ec48631082a2fdfb9b8a50da92f81bfeb40abe"
+    }
+  ]
+}

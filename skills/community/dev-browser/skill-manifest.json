@@ -1,0 +1,79 @@
+{
+  "slug": "dev-browser",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "bun.lock",
+      "checksum": "c168fd1ac04fefeb3d5dc1c52a47be04f69b729b7457518d0d38888da1004172"
+    },
+    {
+      "path": "package-lock.json",
+      "checksum": "f0d63d8571473295bd38f7283e33587d1029ab98822ba26689954baf7d48fe3d"
+    },
+    {
+      "path": "package.json",
+      "checksum": "3952f3024ca4bd829ef6b10e9479f10362ed9072df7acfad75f1f30bd43f57bf"
+    },
+    {
+      "path": "references/scraping.md",
+      "checksum": "44031cea3262dbf909d3657897b0b8bb30f0760520887f64e118b8f319cadddd"
+    },
+    {
+      "path": "scripts/start-relay.ts",
+      "checksum": "3bf40023aa5f930df6ba04368383929dc018566619e3c133c56c14f0e8568e5a"
+    },
+    {
+      "path": "scripts/start-server.ts",
+      "checksum": "3d9b915c089296494a483d9f677a69a98ca0028d8610c7c68da48164644dfd1c"
+    },
+    {
+      "path": "server.sh",
+      "checksum": "1f936c34f3a517f82f4987b51dd79d2786beec89eadacd6b109df4e661e42661"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "3f04e81004ba7a60d2580d6e3b3974418fbaca7d1ad02a7361dd64803060bcbe"
+    },
+    {
+      "path": "src/client.ts",
+      "checksum": "bebed3126e9219cd03bfd6471c124dfafc82f4d540eceeff081d52af21d0729a"
+    },
+    {
+      "path": "src/index.ts",
+      "checksum": "d41ebe63d4355ef8bbac013e33a6896700db48487fab51f8198498eadd87eb46"
+    },
+    {
+      "path": "src/relay.ts",
+      "checksum": "871cf6213feeaaa326bbe50c18df26d96204c036b2e8c7f73ea4c16b9177e73e"
+    },
+    {
+      "path": "src/snapshot/__tests__/snapshot.test.ts",
+      "checksum": "7c71fa4851ca3f2f11f09a49926c1fcc493dc14a42e04b357198b4f6a024590b"
+    },
+    {
+      "path": "src/snapshot/browser-script.ts",
+      "checksum": "188c3a28d4f470efacddfd16f9b831d45fb849976b540cd10ebfeb6526cf66c1"
+    },
+    {
+      "path": "src/snapshot/index.ts",
+      "checksum": "2cb11d7bec4ff8719ecac9ad0564d2c9315c9d53d2fb882ba81a3754dc65d80d"
+    },
+    {
+      "path": "src/snapshot/inject.ts",
+      "checksum": "c45f227615f99f96faa1d9372bd3b30935b77c2b72173449bbf309ec8dc11ddb"
+    },
+    {
+      "path": "src/types.ts",
+      "checksum": "4284ffc83aa0f7f88929d612fa3f7f71c5a046a989e758f2c9e65e0fe7fd2dfc"
+    },
+    {
+      "path": "tsconfig.json",
+      "checksum": "8c934e8f17456a34832444adbf3eee8498f4726bf656024801dbfdc0b9f40270"
+    },
+    {
+      "path": "vitest.config.ts",
+      "checksum": "4980d8bbd031c2dbf5644867bf8a9ecc6dd088b5379f1d566be452e4f001eb92"
+    }
+  ]
+}

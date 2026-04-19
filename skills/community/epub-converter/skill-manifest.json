@@ -1,0 +1,27 @@
+{
+  "slug": "epub-converter",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "REFERENCE.md",
+      "checksum": "9d7f25ae9dff9af2d3903df0285c9820d72303285ad593a8476085c7c33fba7b"
+    },
+    {
+      "path": "requirements.txt",
+      "checksum": "d6f43ed67ec102d7e3e59d0a7ba6f5a5c61c9c823ed6f50f3bb8afb3d8a7af80"
+    },
+    {
+      "path": "scripts/epub_generator.py",
+      "checksum": "d71011dd95b093f05aa09dcee906a449164d3a02482c873716bf9d8cda0bbd2d"
+    },
+    {
+      "path": "scripts/markdown_processor.py",
+      "checksum": "0f9ce77d61e32f832aaca173b1dab4ac19e1e476853dbf469168983836d3cdbf"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "fa7ceaf36ab0c22390830f849ea2b5cb3100cd2d87a9b2c17e160c9e42bb5592"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "ios-simulator",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "references/accessibility_checklist.md",
+      "checksum": "050093b42f3451ef7f6bdbfbb61e531e6f722a09f075251f96c675f567d26516"
+    },
+    {
+      "path": "references/idb_quick.md",
+      "checksum": "6bdc9762b7c3cf74197cc14a3c7334156800964e46eb1c4e4d871dc2efc165a6"
+    },
+    {
+      "path": "references/simctl_quick.md",
+      "checksum": "dc87774fa160997c75f718bcd816025cae7195348e6542f6fa67031a7aa12dcc"
+    },
+    {
+      "path": "references/test_patterns.md",
+      "checksum": "efe07e186696e900d552945f1f33cc35e17609d0dbee7191d580acb6d48109a4"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "checksum": "7064d93d8e714fad6229ef202f425074af2fe2a76f42fca250564f5ba346954d"
+    },
+    {
+      "path": "scripts/accessibility_audit.py",
+      "checksum": "3b6a474e80a1e132f71e0c857688ef15b475b209ff608cf36c9758d0f8e65fa2"
+    },
+    {
+      "path": "scripts/app_launcher.py",
+      "checksum": "bded20f2a0df70367f4204f8a13d9035df32ce8afe24b2125a69e5b8e0a3e116"
+    },
+    {
+      "path": "scripts/app_state_capture.py",
+      "checksum": "197d21908cfadd2798e1efdf24f580469d58022dc09fc50c0bb105a8f0b16cdd"
+    },
+    {
+      "path": "scripts/build_and_test.py",
+      "checksum": "515a61aa37fce319ac3be0845043f8ed21aedbb69ac09e6a8e9d541b6b02ebb8"
+    },
+    {
+      "path": "scripts/clipboard.py",
+      "checksum": "a322b34e833c4e54e464129a128703f554f2a82a880a8f3f91bc44abec4a92ce"
+    },
+    {
+      "path": "scripts/common/__init__.py",
+      "checksum": "5d528313dd1d308801afe5a075ba387d36bc8cc0fee130526f58277b3c2e60a1"
+    },
+    {
+      "path": "scripts/common/cache_utils.py",
+      "checksum": "cb359397100d32ca0683744134178539afadcade39dd913632ccf9a3e142fe58"
+    },
+    {
+      "path": "scripts/common/device_utils.py",
+      "checksum": "e4e75f22a4d61be88ec00715a12d12935e9e94f84b48a8f5f9e41a4e84e1020c"
+    },
+    {
+      "path": "scripts/common/idb_utils.py",
+      "checksum": "2569b55a7ced7d87bdf27924ede95575aac4968860d94dbec6ae499347b5aa6e"
+    },
+    {
+      "path": "scripts/common/screenshot_utils.py",
+      "checksum": "4a89e0b54acfbe4802ad3797b05ad6e28cdff52f3e97534de8957b639a39c44f"
+    },
+    {
+      "path": "scripts/gesture.py",
+      "checksum": "fe4b269e3fe100c84454ddd21a1ead60c32fb5dc809343363d2dc335898c8cd5"
+    },
+    {
+      "path": "scripts/keyboard.py",
+      "checksum": "12ae50a87eb3f76925750dfe0d3880bb1cb1534039363ee4110d3bf30bc2311f"
+    },
+    {
+      "path": "scripts/log_monitor.py",
+      "checksum": "09d0ec0fa3ed824293dcfad8667c8a0731d4717d8771f0dee4d01ea95efc487e"
+    },
+    {
+      "path": "scripts/navigator.py",
+      "checksum": "74db02abe7e88fd6d8f8d184b5a353277ece3f4d45823785f22cccb995c51411"
+    },
+    {
+      "path": "scripts/privacy_manager.py",
+      "checksum": "67dfd9749da2edbb84186d32022124ac317e8aa0c69b94350caaadc6cd5a2dc4"
+    },
+    {
+      "path": "scripts/push_notification.py",
+      "checksum": "b20b0ea3d2acce4c2d8fd0cb0bac07f8ae7ac6ef04d7b5efcfc757fb7f6e7c46"
+    },
+    {
+      "path": "scripts/screen_mapper.py",
+      "checksum": "a826d14ac964ccbeb956f02faca87d1e233564e038caa315082b2d759850c92f"
+    },
+    {
+      "path": "scripts/sim_health_check.sh",
+      "checksum": "d7b115583f1b794b3d536b1720d4b9a164101ece8afb436434134acef3248d00"
+    },
+    {
+      "path": "scripts/sim_list.py",
+      "checksum": "9040bd3c2fcd015f1b00c808152fca979076d9213e001485b6300fdb65760628"
+    },
+    {
+      "path": "scripts/simctl_boot.py",
+      "checksum": "1a4809cb4434d769782c541ff392f61dae6f86f473c0f6eb0b6d567c4e3274e3"
+    },
+    {
+      "path": "scripts/simctl_create.py",
+      "checksum": "e6f21b0250852290a15acdaddeea0eeb63aa9993f71a628e3a82282dc02e91d0"
+    },
+    {
+      "path": "scripts/simctl_delete.py",
+      "checksum": "60c2851b7c36a1f705ba79b7d39a18794af033d21535e0281b4ca95f85a6eb85"
+    },
+    {
+      "path": "scripts/simctl_erase.py",
+      "checksum": "73a4052ea47a50f70c84c30a323bd6f7992845f2738c7f2e8299d1b108a610fd"
+    },
+    {
+      "path": "scripts/simctl_shutdown.py",
+      "checksum": "f8ccf5fd80f92fd538d2eb1daa21361fecd5771a5eed5aeddd8ff8804a8c9c29"
+    },
+    {
+      "path": "scripts/simulator_selector.py",
+      "checksum": "6a1a3be345005c535610a588ff776e71fbb393f6c0940552a1c86115e3486df2"
+    },
+    {
+      "path": "scripts/status_bar.py",
+      "checksum": "326bb1c36bab3ab53cf69270a69481bbc342f812429027a4a96065be336d22df"
+    },
+    {
+      "path": "scripts/test_recorder.py",
+      "checksum": "e87c9fdb60f728f9f3800e9aa7c4091e58f3b624f06c55cbef8d379edde6f326"
+    },
+    {
+      "path": "scripts/visual_diff.py",
+      "checksum": "667a64ef1d1e88dc95682350160b9ec730a9764e8dfe87ea0a19d2fd18022dee"
+    },
+    {
+      "path": "scripts/xcode/__init__.py",
+      "checksum": "81d54fdf0b25f0d0587e211c39912dc64977b08d07b21f658b4eb7419163708f"
+    },
+    {
+      "path": "scripts/xcode/builder.py",
+      "checksum": "84ab29a0228bb77e43ff1d288d2ff9eeb98d43a7a40fa8e92644a0d056f72bc9"
+    },
+    {
+      "path": "scripts/xcode/cache.py",
+      "checksum": "9fb32b5581743f623ce70edea3a8469af8c33e9a0e65e4b21c9f0b5ba49d34d5"
+    },
+    {
+      "path": "scripts/xcode/config.py",
+      "checksum": "09bc6633bd0ddd97fd6535036ce3868e73dfae51cdda69a4b3725e325b3ac459"
+    },
+    {
+      "path": "scripts/xcode/reporter.py",
+      "checksum": "e623267e046e99f941870847363da7126906b0227783530fa1b8c23dac1a4259"
+    },
+    {
+      "path": "scripts/xcode/xcresult.py",
+      "checksum": "9bc80667de595c0d0c895dec0dc369928102ac3c0e7a4983fa5be4c7cb8e67d8"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "4fc083d030e8f644453199546ae9a20458110281cb3934476fac522ba4324fed"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "redis",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "8e4d0f4b9250b9368d047d285b7bcc4b9b93981a604b99299079f1b742d7d072"
+    }
+  ]
+}

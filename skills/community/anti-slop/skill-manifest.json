@@ -1,0 +1,15 @@
+{
+  "slug": "anti-slop",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "references/patterns.md",
+      "checksum": "55f72bc98975f708bde3e9ad07267af1e5bbb6b53ef0d83c7b482d6a29ea888c"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "2c52d79878117f7982b08a3b6588c3a0e2f6fd8c9b6cb64a41ca922e18a94785"
+    }
+  ]
+}

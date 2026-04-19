@@ -1,0 +1,11 @@
+{
+  "slug": "youtube-video-creator",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "4c8dc1b0a5371ca9379d0a0281e5e39e3df1aa0edf4607e1c0bd20808aa9fd58"
+    }
+  ]
+}

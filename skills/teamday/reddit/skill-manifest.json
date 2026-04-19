@@ -1,0 +1,19 @@
+{
+  "slug": "reddit",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/reddit-search.ts",
+      "checksum": "447d873fa028e71a7194314a6e59017c6594dd399d85d8fcbf8248a723af932e"
+    },
+    {
+      "path": "scripts/reddit-thread.ts",
+      "checksum": "df17924efd1d7802494803dfe1c07575bd40517a7ef5fe58b2faeb96844ae4fe"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "4c096a9b8a62ef1de7c79e75d269688e240da3d617bf7f5bf02459c22909f7d1"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "credential-activation",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "24b40557d15c00153deef5e30c5adf2f5e8eda162db671a9f2c2d0325f2b351e"
+    }
+  ]
+}

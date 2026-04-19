@@ -1,0 +1,11 @@
+{
+  "slug": "image-to-video",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "b5ee8aaa2d302fc1401731d7e3163e3ef94990c703c69a9218acc386b37d6ab5"
+    }
+  ]
+}

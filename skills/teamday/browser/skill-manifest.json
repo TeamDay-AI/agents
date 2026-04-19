@@ -1,0 +1,39 @@
+{
+  "slug": "browser",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/browser-cookies.ts",
+      "checksum": "563c9e7e863855dd056d6637fee388ee9622169ee44dc5d4a1dceb30bc82400c"
+    },
+    {
+      "path": "scripts/browser-eval.ts",
+      "checksum": "c922fd162842dfddfe3d25c9377ee38fe5ba85cc28b8cfab691614cdd9697074"
+    },
+    {
+      "path": "scripts/browser-navigate.ts",
+      "checksum": "b7f5a1bd0170e18925581948a8c5a1d5aace65d78f96674913894c108a098799"
+    },
+    {
+      "path": "scripts/browser-pick.ts",
+      "checksum": "b99a829f85d813d7ba9cbafbe7df9c52ba4282bf0ad91ed08e71c7dc9138d57c"
+    },
+    {
+      "path": "scripts/browser-screenshot.ts",
+      "checksum": "375a22e3c5f6b734dd4403b82a829f8f859242f95395ae571009ce5c08999df5"
+    },
+    {
+      "path": "scripts/browser-start.ts",
+      "checksum": "d055f49c6fd308a0b8960abc9e56d18eb9d6ca5e8cad26c0ac8865583bab1055"
+    },
+    {
+      "path": "scripts/browser-stop.ts",
+      "checksum": "6beb707fa371281294bf56e8c27492d8d896f29da39d4ec652f238504db87893"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "bdc22480b0343d93cf5b91aad9f8101cd1b7d92cd91a59864d01eb1a5951db46"
+    }
+  ]
+}

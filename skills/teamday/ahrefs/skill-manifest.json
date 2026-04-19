@@ -1,0 +1,19 @@
+{
+  "slug": "ahrefs",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/ahrefs-api.ts",
+      "checksum": "8bb8206fa7b7c193252e1f84729d7e098f38261339625607fe4dda0b9018eeda"
+    },
+    {
+      "path": "scripts/get-ahrefs-token.ts",
+      "checksum": "353fd7d5daa0322e12972462c77ba6036130377c969c6f4b3b2e28c547cd1e0a"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "73d64db7cf6aa46345c7e9620d6f01e897b2a328e6b78c5d73d8a00c919c6f32"
+    }
+  ]
+}

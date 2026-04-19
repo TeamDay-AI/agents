@@ -1,0 +1,27 @@
+{
+  "slug": "playwright",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "API_REFERENCE.md",
+      "checksum": "ed10f6472af9f2597be746cb6e0bce4a8a99864ae1a724c42f0ec61b6db4dd6b"
+    },
+    {
+      "path": "lib/helpers.js",
+      "checksum": "4bcf32529dd04cf50ddb89d83ccc5ce73e7ef25bd0d375d31310b1668a547739"
+    },
+    {
+      "path": "package.json",
+      "checksum": "b22d10a10dfff4770cb1e35e5f52a9fa78b0f05717a7f2d4e598930ef149262a"
+    },
+    {
+      "path": "run.js",
+      "checksum": "41b130999c784120b0d94f66de8e44ee83908a99c5bc84aa9f314e28400b909e"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "f38b55f1a3f132b9e89cd736d8085373f340c4f225193b943deedf3afd06740e"
+    }
+  ]
+}

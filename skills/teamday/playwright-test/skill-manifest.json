@@ -1,0 +1,11 @@
+{
+  "slug": "playwright-test",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "b962ef1534fe126eee13297af2a92932f1904203916757d57aff15e67003f321"
+    }
+  ]
+}

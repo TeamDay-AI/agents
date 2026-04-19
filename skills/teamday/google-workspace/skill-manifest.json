@@ -1,0 +1,11 @@
+{
+  "slug": "google-workspace",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "398ea607c701f9a6db73c8eff9763bb3eb6a3d8511dd12c010fec300f0d82855"
+    }
+  ]
+}

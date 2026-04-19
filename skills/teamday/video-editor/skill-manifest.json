@@ -1,0 +1,59 @@
+{
+  "slug": "video-editor",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "assets/fonts/Inter-Bold.otf",
+      "checksum": "00fd6f4691ee8884a33b46bf45851b341927c37c30064f558e1befb242971c49"
+    },
+    {
+      "path": "assets/fonts/Inter-Medium.otf",
+      "checksum": "1e65171fccd6f445b7742728454620ec2867356c849af78e71bf2c4f0e3d97ba"
+    },
+    {
+      "path": "assets/fonts/Inter-Regular.otf",
+      "checksum": "be6d709dcb730ddaf050cbdae6fe89bd56d5d14dc66885639bbf6f06bd03521b"
+    },
+    {
+      "path": "assets/teamday_logo.png",
+      "checksum": "63f8b77b9dbfbc4b894da4238d8bb5fa97faf277793a5e5dbe3132155e375c9c"
+    },
+    {
+      "path": "reference/compose_gta.py",
+      "checksum": "76714b64085ee30b4574a95225fd119b9e4d21973bbf1008776b51d07625de6e"
+    },
+    {
+      "path": "reference/compose_premium.py",
+      "checksum": "b0363b6cb5a6bc155618d0c711d121a7855402da49c0fa7dff3e5f443463f33e"
+    },
+    {
+      "path": "reference/compose_video.py",
+      "checksum": "970ee27804979e206af4e447a9c3ee5a748dbd0139983078132bb25f3d9ad82d"
+    },
+    {
+      "path": "reference/stitch.py",
+      "checksum": "070c706ac0fb28ff51a5a23ea0eba3339f355c99036f24b014cab4f19e82088e"
+    },
+    {
+      "path": "scripts/append_endcard.py",
+      "checksum": "e6630178db8336e205d203d2802fd2c647d050c012c7d4ae4acfa0608923373d"
+    },
+    {
+      "path": "scripts/compose_scenes.py",
+      "checksum": "c825ff1691c83f1203eb60d59b628f0549bf2669b5b59c7a001e5370612bbd08"
+    },
+    {
+      "path": "scripts/extract_frames.py",
+      "checksum": "4971bc98a5a1e55212990de7e844f8831c43c25e0ab60be4721f82b1d0980dca"
+    },
+    {
+      "path": "scripts/mux_audio.py",
+      "checksum": "73bf01655abd68307a67c03b46534f4ea46025a8bb5eb97020659398ea6ff9fa"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "59b548df5ed7b10871ff06af5f45501a70a49db7d22b229090ece66fd35ff4f5"
+    }
+  ]
+}

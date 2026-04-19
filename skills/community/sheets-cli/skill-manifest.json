@@ -1,0 +1,11 @@
+{
+  "slug": "sheets-cli",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "checksum": "fede6476b2d67a846bb818e6018003a2daf1f25b0fd57c919f23d5893bc40e5a"
+    }
+  ]
+}

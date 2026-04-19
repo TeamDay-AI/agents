@@ -1,0 +1,35 @@
+{
+  "slug": "firestore",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/fs-get.ts",
+      "checksum": "fa30ff6dd2bf952d1b3caa6bf705edba63ae2d7475661b498e4d3b19545ace21"
+    },
+    {
+      "path": "scripts/fs-init.ts",
+      "checksum": "e3176a03e601fba43331a02f9cb4b30dd4e159171fff59fc81ee14e729180bc5"
+    },
+    {
+      "path": "scripts/fs-list.ts",
+      "checksum": "e37f3fb72d3e5a72918a05dc3ae9d4ec21fd54b9028a240be9e624ece0d577c0"
+    },
+    {
+      "path": "scripts/fs-query.ts",
+      "checksum": "33834518faeed76937a05b7196aab669f5cb2424329045851013a5a48613d5d7"
+    },
+    {
+      "path": "scripts/fs-set.ts",
+      "checksum": "8d7de6a7c838b38aa09463173ab89e0661949e94c47dfd7d2a5b8b52694c1258"
+    },
+    {
+      "path": "scripts/package.json",
+      "checksum": "371f79b6fc2ec82558b8234a7065cbe8f1f98de33a68f38329decf2ecb90757f"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "cf4f6ce1823db2d8d1013291497821cdb5009d36ce726ebfd953d2108f324a98"
+    }
+  ]
+}

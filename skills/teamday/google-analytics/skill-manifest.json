@@ -1,0 +1,15 @@
+{
+  "slug": "google-analytics",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/ga-report.ts",
+      "checksum": "18c95a80036c755dc15fe5a3c5d2b50765f58cbcf3f78c3dab74caa5b315fe1a"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "697d02293d31a71a8f8dd110c76c9566f760dcebbd5e1d767eb7a7f09e6b9a76"
+    }
+  ]
+}

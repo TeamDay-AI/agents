@@ -1,0 +1,19 @@
+{
+  "slug": "indiehackers",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/ih-search.ts",
+      "checksum": "cf5d408be328a0fe408c4a08e94f911710a19dce7cdc48f17889594ca515fe70"
+    },
+    {
+      "path": "scripts/ih-thread.ts",
+      "checksum": "239dc63335a83ea559732ac40a59e073f2d22969b9c08f18cdc2826a7223b9d5"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "fd01b27c531e61b8a88655da1bff69b840dd7fdb57530dd8b97764c92663c975"
+    }
+  ]
+}

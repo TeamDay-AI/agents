@@ -1,0 +1,15 @@
+{
+  "slug": "site-audit",
+  "provider": "teamday",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "scripts/site-audit.ts",
+      "checksum": "da58fda133d34311662afe9bbc50ef8841ebb50fb7770548a9d7fe3e533a9d7e"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "4c95041dc2edb2a67c05e515156714b0f8782e29901ed8dee3f160a51ffa7fb1"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "pomodoro",
+  "provider": "community",
+  "version": "2026-04-19",
+  "files": [
+    {
+      "path": "pomodoro",
+      "checksum": "9248016988a3e4314dd0525cabba6275ca718426bf0f793fb5ef8a9eacd9138d"
+    },
+    {
+      "path": "SKILL.md",
+      "checksum": "730310ee944fb812e54536e6ff380e553ad99085999dafa52868e828fb04af06"
+    }
+  ]
+}
